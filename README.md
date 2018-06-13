@@ -89,7 +89,7 @@ prompt(options, parentBrowserWindow)
     if (result) {
       console.log('obtained result', result),
       /**
-      IN THE CASE OF MULTI-INPUT THE RESULT WILL BE IN THIS FORMAT:
+      IN CASE OF MULTI-INPUT THE RESULT WILL BE IN THIS FORMAT:
       elem = inputArray[i];
       {
         [elem.key]: elem.value,
