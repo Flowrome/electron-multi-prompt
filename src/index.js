@@ -39,7 +39,7 @@ function electronPrompt(options, parentWindow) {
             title : opts.title
         });
 
-        if (opt.openPrompt) {
+        if (opts.openPrompt) {
             promptWindow.webContents.openDevTools();
         }
         promptWindow.setMenu(null);
