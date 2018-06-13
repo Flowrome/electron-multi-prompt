@@ -20,7 +20,8 @@ function electronPrompt(options, parentWindow) {
             width: 580,
             height: 300,
             resizable: false,
-            disableInitialLabel: false
+            disableInitialLabel: false,
+            openPrompt: false
         }, options || {});
 
         if(opts.type == 'select' && (opts.selectOptions === null || typeof(opts.selectOptions) !== 'object')) {
@@ -38,7 +39,9 @@ function electronPrompt(options, parentWindow) {
             title : opts.title
         });
 
-        promptWindow.webContents.openDevTools();
+        if (opt.openPrompt) {
+            promptWindow.webContents.openDevTools();
+        }
         promptWindow.setMenu(null);
 
         const getOptionsListener = (event) => {
