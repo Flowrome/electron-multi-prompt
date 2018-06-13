@@ -1,0 +1,8 @@
+{
+  "name": "electron-multi-prompt",
+  "version": "1.0.0",
+  "description": "An extension to electron-prompt module that allows multi-input fileds",
+  "main": "src/index.js",
+  "author": "Flowrome",
+  "license": "MIT"
+}
