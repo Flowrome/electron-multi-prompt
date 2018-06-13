@@ -5,11 +5,23 @@
   "main": "src/index.js",
   "author": "Flowrome",
   "license": "MIT",
+  "keywords": [
+    "electron",
+    "prompt",
+    "string"
+  ],
   "repository" :{
     "type" : "git",
     "url" : "https://github.com/Flowrome/electron-multi-prompt"
   },
   "bugs": {
     "url": "https://github.com/Flowrome/electron-multi-prompt/issues"
+  },
+  "author": {
+    "name": "Flowrome",
+    "url": "https://github.com/flowrome"
+  },
+  "dependencies": {
+    "doc-ready": "^1.0.4"
   }
 }
