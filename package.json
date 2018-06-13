@@ -1,8 +1,15 @@
 {
   "name": "electron-multi-prompt",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An extension to electron-prompt module that allows multi-input fileds",
   "main": "src/index.js",
   "author": "Flowrome",
-  "license": "MIT"
+  "license": "MIT",
+  "repository" :{
+    "type" : "git",
+    "url" : "https://github.com/Flowrome/electron-multi-prompt"
+  },
+  "bugs": {
+    "url": "https://github.com/Flowrome/electron-multi-prompt/issues"
+  }
 }
