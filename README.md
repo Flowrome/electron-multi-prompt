@@ -48,8 +48,8 @@ prompt(
       ok_bg_color: '#color_code', //color for ok button
       cancel_bg_color: '#color_code', //color for cancel button
       textes: {
-        ok_text: 'text', //text for ok button
-        cancel_text: 'text' //text for cancel button
+        ok_txt: 'text', //text for ok button
+        cancel_txt: 'text' //text for cancel button
       }
     },
 
